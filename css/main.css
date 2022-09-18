@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(36, 43%, 85%);
+    color: aliceblue;
+    font-family: 'ABeeZee';
+}
+
+
+nav{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 40px;
+    font-weight: bold;
+    line-height: 75px;
+    
+}
+
+nav ul{
+    float: right; 
+    margin-right: 20px;
+    margin: 0 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: #1338b3;
+}
